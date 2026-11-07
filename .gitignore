@@ -1,0 +1,41 @@
+
+# Dependencies
+node_modules/
+
+# AWS CDK generated files
+cdk.out/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# AWS credentials
+.aws/
+
+# Build outputs
+dist/
+*.js
+*.js.map
+*.d.ts
+!jest.config.js
+
+# Logs
+*.log
+
+# Backup files
+*-backup.json
+cloudwatch-logs-*.json
+cloudwatch-alarm.json
+sns-topics.json
+sns-subscriptions.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Additional generated and backup files
+cdk.context.json
+ServerTask-Backup/
